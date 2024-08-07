@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Roca-Blanca/static/css/main.4be4a4fa.css",
+    "main.js": "/Roca-Blanca/static/js/main.4ec3f2da.js",
+    "static/media/slideImg1.jpg": "/Roca-Blanca/static/media/slideImg1.90204773c84cb2e70059.jpg",
+    "static/media/slideImg3.jpg": "/Roca-Blanca/static/media/slideImg3.4fb40486a15056b30fbe.jpg",
+    "static/media/slideImg2.jpg": "/Roca-Blanca/static/media/slideImg2.fbef504ac3d21593743b.jpg",
+    "static/media/ropa.jpg": "/Roca-Blanca/static/media/ropa.d17d4a4f1c5a38108c1d.jpg",
+    "static/media/calzados.jpg": "/Roca-Blanca/static/media/calzados.f4ff1aa6b241b52077c0.jpg",
+    "static/media/slideImg4.jpg": "/Roca-Blanca/static/media/slideImg4.c8c68c515e005bccefc1.jpg",
+    "static/media/rocablanca.png": "/Roca-Blanca/static/media/rocablanca.88a13520c269accd22fa.png",
+    "index.html": "/Roca-Blanca/index.html",
+    "main.4be4a4fa.css.map": "/Roca-Blanca/static/css/main.4be4a4fa.css.map",
+    "main.4ec3f2da.js.map": "/Roca-Blanca/static/js/main.4ec3f2da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4be4a4fa.css",
+    "static/js/main.4ec3f2da.js"
+  ]
+}

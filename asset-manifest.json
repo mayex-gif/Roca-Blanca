@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Roca-Blanca/static/css/main.89866b91.css",
-    "main.js": "/Roca-Blanca/static/js/main.5eb03fb6.js",
+    "main.js": "/Roca-Blanca/static/js/main.cfa3c1e9.js",
     "static/media/calzado5.jpg": "/Roca-Blanca/static/media/calzado5.0730f6be52df5b3aee19.jpg",
     "static/media/calzadoHombre.jpg": "/Roca-Blanca/static/media/calzadoHombre.4ab9119a280a506f0788.jpg",
     "static/media/slideImg1.jpg": "/Roca-Blanca/static/media/slideImg1.90204773c84cb2e70059.jpg",
@@ -23,10 +23,10 @@
     "static/media/rocablancapng.png": "/Roca-Blanca/static/media/rocablancapng.88a13520c269accd22fa.png",
     "index.html": "/Roca-Blanca/index.html",
     "main.89866b91.css.map": "/Roca-Blanca/static/css/main.89866b91.css.map",
-    "main.5eb03fb6.js.map": "/Roca-Blanca/static/js/main.5eb03fb6.js.map"
+    "main.cfa3c1e9.js.map": "/Roca-Blanca/static/js/main.cfa3c1e9.js.map"
   },
   "entrypoints": [
     "static/css/main.89866b91.css",
-    "static/js/main.5eb03fb6.js"
+    "static/js/main.cfa3c1e9.js"
   ]
 }

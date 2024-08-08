@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Roca-Blanca/static/css/main.5f0c91a8.css",
-    "main.js": "/Roca-Blanca/static/js/main.ee2dee76.js",
+    "main.js": "/Roca-Blanca/static/js/main.06f5944f.js",
     "static/media/slideImg1.jpg": "/Roca-Blanca/static/media/slideImg1.90204773c84cb2e70059.jpg",
     "static/media/ropa.jpg": "/Roca-Blanca/static/media/ropa.8ddc5b020a8f4f846ef3.jpg",
     "static/media/slideImg3.jpg": "/Roca-Blanca/static/media/slideImg3.4fb40486a15056b30fbe.jpg",
@@ -11,10 +11,10 @@
     "static/media/rocablancapng.png": "/Roca-Blanca/static/media/rocablancapng.88a13520c269accd22fa.png",
     "index.html": "/Roca-Blanca/index.html",
     "main.5f0c91a8.css.map": "/Roca-Blanca/static/css/main.5f0c91a8.css.map",
-    "main.ee2dee76.js.map": "/Roca-Blanca/static/js/main.ee2dee76.js.map"
+    "main.06f5944f.js.map": "/Roca-Blanca/static/js/main.06f5944f.js.map"
   },
   "entrypoints": [
     "static/css/main.5f0c91a8.css",
-    "static/js/main.ee2dee76.js"
+    "static/js/main.06f5944f.js"
   ]
 }

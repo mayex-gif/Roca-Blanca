@@ -8,12 +8,15 @@ import TerminosYCondiciones from './components/terminosycondiciones';
 import PoliticasDePrivacidad from './components/politicasdeprivacidad';
 import Vestimentas from './components/vestimentas';
 import Calzados from './components/calzados';
-import { Route, Routes } from 'react-router-dom'; 
+import ScrollToTop from './components/scrollToTop';
+import { Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
       <NavBar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<PrincipalPage />} />
         <Route path="/formulario" element={<Formulario />} />

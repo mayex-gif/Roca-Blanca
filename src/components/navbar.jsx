@@ -25,9 +25,8 @@ function NavBar() {
                         </div>
                         <div className="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
                             <form className="d-flex align-items-center" role="search">
-                                <input className="form-control text-white me-2" type="search" placeholder="Buscar..." aria-label="Search" />
-
-                                <button className="btn btn-light me-2" onClick={buscarProductos} type="submit">
+                                {/* <input className="form-control text-white me-2" type="search" placeholder="Buscar..." aria-label="Search" /> */}
+                                <button className="btn btn-light me-2" onClick={ buscarProductos } type="submit">
                                     <i className="bi bi-search"></i>
                                 </button>
                             </form>

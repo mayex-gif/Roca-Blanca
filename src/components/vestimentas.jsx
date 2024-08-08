@@ -1,8 +1,8 @@
+import Direccion from "./direccion";
+
 const Vestimentas = () => {
     return (
-        <h1>
-            VESTIMENTAS
-        </h1>        
+        <Direccion />
     )
 }
 

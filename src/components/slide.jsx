@@ -20,29 +20,21 @@ const Slide = () => {
                             <div className="carousel-item active">
                                 <img src={slideImg1} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5 className='' id='carousel-text'><strong>First slide label</strong></h5>
-                                    <p className='' id='carousel-text'><strong>Some representative placeholder content for the first slide.</strong></p>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={slideImg2} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5 className='' id='carousel-text'><strong>Second slide label</strong></h5>
-                                    <p className='' id='carousel-text'><strong>Some representative placeholder content for the second slide.</strong></p>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={slideImg3} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5 className='' id='carousel-text'><strong>Third slide label</strong></h5>
-                                    <p className='' id='carousel-text'><strong>Some representative placeholder content for the third slide.</strong></p>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={slideImg4} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5 className='' id='carousel-text'><strong>Fourth slide label</strong></h5>
-                                    <p className='' id='carousel-text'><strong>Some representative placeholder content for the fourth slide.</strong></p>
                                 </div>
                             </div>
                         </div>

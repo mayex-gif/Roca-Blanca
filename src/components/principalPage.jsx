@@ -6,6 +6,7 @@ import calzadosImg from '../images/calzados.jpg'
 import { Link } from 'react-router-dom';
 
 import Slide from '../components/slide';
+import Ofertas from '../components/ofertas';
 
 const PrincipalPage = () => {
     return (
@@ -19,7 +20,8 @@ const PrincipalPage = () => {
                         <div className="card-img-overlay d-flex align-items-end justify-content-center">
                             <div>
                                 <h5 className="card-title text-white text-center fs-4"><strong>CALZADOS</strong></h5>
-                                <p className="card-text text-white text-center">Calzados aptos para mujeres y hombres.</p><div className='text-center'>
+                                <p className="card-text text-white text-center">Calzados aptos para mujeres y hombres.</p>
+                                <div className='text-center'>
                                     <Link to={'/calzados'} className="btn btn-outline-light text-center" id='card-btn'><strong>IR AHORA</strong></Link>
                                 </div>
                             </div>
@@ -30,7 +32,8 @@ const PrincipalPage = () => {
                         <div className="card-img-overlay d-flex align-items-end justify-content-center">
                             <div>
                                 <h5 className="card-title text-white text-center fs-4"><strong>VESTIMENTA</strong></h5>
-                                <p className="card-text text-white text-center">Vestimenta apta para mujeres y hombres.</p><div className='text-center'>
+                                <p className="card-text text-white text-center">Vestimenta apta para mujeres y hombres.</p>
+                                <div className='text-center'>
                                     <Link to={'/vestimentas'} className="btn btn-outline-light text-center" id='card-btn'><strong>IR AHORA</strong></Link>
                                 </div>
                             </div>
@@ -38,6 +41,8 @@ const PrincipalPage = () => {
                     </div>
                 </div>
             </div>
+
+            <Ofertas />
         </>
     );
 }

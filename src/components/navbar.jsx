@@ -19,10 +19,10 @@ function NavBar() {
                 <div className="container py-3">
                     <div className="row align-items-center">
                         <div className="col-12 col-md-4 text-center text-md-start mb-0 mb-md-0">
-                            <Link to={'/Roca-Blanca'} className="text-decoration-none text-white fs-5 text"><strong>ROCA BLANCA</strong></Link>
+                            <Link to={'/'} className="text-decoration-none text-white fs-5 text"><strong>ROCA BLANCA</strong></Link>
                         </div>
                         <div className="col-12 col-md-4 text-center mb-2 mb-md-0">
-                            <Link to={'/Roca-Blanca'}>
+                            <Link to={'/'}>
                                 <img src={logoRocaBlanca} alt="Roca Blanca Logo" width="100" height="100" className="img-fluid" />
                             </Link>
                         </div>

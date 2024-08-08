@@ -4,17 +4,20 @@ function Footer() {
     return (
         <>
             <div className="m-0 p-0">
-                <div className="bg-dark border-top text-align-center">
-                    <footer className="py-3 my-0">
-                        <div className="row justify-content-center border-bottom pb-3 mb-3 text-center mx-0 px-0">
-                            <Link className="text-decoration-none text-white col-3">Home</Link>
-                            <Link className="text-decoration-none text-white col-3">Home</Link>
-                            <Link className="text-decoration-none text-white col-3">Home</Link>
+                <div className="bg-dark border-top text-center">
+                    <footer className="row justify-content-center m-0 p-0">
+                        <div className="col-12 col-md-4 p-4">
+                            <Link to={'/sobre-nosotros'} className="text-decoration-none text-white col-3">Sobre Nosotros</Link>
                         </div>
-                        <div className="text-white">
-                            <p className="text-center text-white">&copy; 2024 Company, Inc</p>
+                        <div className="col-12 col-md-4 p-4">
+                            <Link to={'/terminos-y-condiciones'} className="text-decoration-none text-white col-3">Términos y Condiciones</Link>
                         </div>
-
+                        <div className="col-12 col-md-4 p-4">
+                            <Link to={'/politicas-de-privacidad'} className="text-decoration-none text-white col-3">Políticas de Privacidad</Link>
+                        </div>
+                        <div className="text-white border-top p-4">
+                            <p className="text-center text-white m-0 p-0">&copy; 2024 Roca Blanca, Argentina</p>
+                        </div>
                     </footer>
                 </div>
             </div>

@@ -1,3 +1,5 @@
+import '../css/descuentos.css';
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -10,14 +12,14 @@ const Descuentos = () => {
     };
 
     return (
-        <div className="">
+        <div>
             <div className=' my-0 py-0 bg-black d-flex justify-content-center'>
                 <Link className="text-decoration-none text-white" onClick={mostrarDescuentos}>
                     <strong className='text-center'>DESCUENTOS <i className="bi bi-caret-down-fill"></i></strong>
                 </Link>
             </div>
             {mostrar && (
-                <div className="bg-white text-black position-absolute w-100 h-10 p-3">
+                <div className="bg-white text-black position-absolute w-100 h-10 p-3 z-3">
                     <div className='text-center'>
                         <div className="">
                             <div className="d-flex flex-wrap align-items-center justify-content-center">

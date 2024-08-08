@@ -20,7 +20,7 @@ const PrincipalPage = () => {
                             <div>
                                 <h5 className="card-title text-white text-center fs-4"><strong>CALZADOS</strong></h5>
                                 <p className="card-text text-white text-center">Calzados aptos para mujeres y hombres.</p><div className='text-center'>
-                                    <Link to={'/'} className="btn btn-outline-light text-center" id='card-btn'><strong>IR AHORA</strong></Link>
+                                    <Link to={'/calzados'} className="btn btn-outline-light text-center" id='card-btn'><strong>IR AHORA</strong></Link>
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ const PrincipalPage = () => {
                             <div>
                                 <h5 className="card-title text-white text-center fs-4"><strong>VESTIMENTA</strong></h5>
                                 <p className="card-text text-white text-center">Vestimenta apta para mujeres y hombres.</p><div className='text-center'>
-                                    <Link to={'/'} className="btn btn-outline-light text-center" id='card-btn'><strong>IR AHORA</strong></Link>
+                                    <Link to={'/vestimentas'} className="btn btn-outline-light text-center" id='card-btn'><strong>IR AHORA</strong></Link>
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,22 @@
+#cardProduct {
+    border-color: white;
+    border-width: 1px;
+    border-radius: 0px;
+}
+
+#cardProduct img {
+    width: 100%;
+    height: 100%; /* Ajusta la altura de las imágenes */
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    height: 100%;
+}

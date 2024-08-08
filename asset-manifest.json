@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Roca-Blanca/static/css/main.c159ffeb.css",
-    "main.js": "/Roca-Blanca/static/js/main.d0ac7db5.js",
+    "main.css": "/Roca-Blanca/static/css/main.5f0c91a8.css",
+    "main.js": "/Roca-Blanca/static/js/main.9ba4ee98.js",
     "static/media/slideImg1.jpg": "/Roca-Blanca/static/media/slideImg1.90204773c84cb2e70059.jpg",
+    "static/media/ropa.jpg": "/Roca-Blanca/static/media/ropa.8ddc5b020a8f4f846ef3.jpg",
     "static/media/slideImg3.jpg": "/Roca-Blanca/static/media/slideImg3.4fb40486a15056b30fbe.jpg",
     "static/media/slideImg2.jpg": "/Roca-Blanca/static/media/slideImg2.fbef504ac3d21593743b.jpg",
-    "static/media/ropa.jpg": "/Roca-Blanca/static/media/ropa.d17d4a4f1c5a38108c1d.jpg",
     "static/media/calzados.jpg": "/Roca-Blanca/static/media/calzados.f4ff1aa6b241b52077c0.jpg",
     "static/media/slideImg4.jpg": "/Roca-Blanca/static/media/slideImg4.c8c68c515e005bccefc1.jpg",
-    "static/media/rocablanca.png": "/Roca-Blanca/static/media/rocablanca.88a13520c269accd22fa.png",
+    "static/media/rocablancapng.png": "/Roca-Blanca/static/media/rocablancapng.88a13520c269accd22fa.png",
     "index.html": "/Roca-Blanca/index.html",
-    "main.c159ffeb.css.map": "/Roca-Blanca/static/css/main.c159ffeb.css.map",
-    "main.d0ac7db5.js.map": "/Roca-Blanca/static/js/main.d0ac7db5.js.map"
+    "main.5f0c91a8.css.map": "/Roca-Blanca/static/css/main.5f0c91a8.css.map",
+    "main.9ba4ee98.js.map": "/Roca-Blanca/static/js/main.9ba4ee98.js.map"
   },
   "entrypoints": [
-    "static/css/main.c159ffeb.css",
-    "static/js/main.d0ac7db5.js"
+    "static/css/main.5f0c91a8.css",
+    "static/js/main.9ba4ee98.js"
   ]
 }

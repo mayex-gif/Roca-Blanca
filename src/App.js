@@ -24,9 +24,10 @@ function App() {
       <NavBar />
 
       {/* <PrincipalBody /> */}
+      <principalPage />
       <Routes>
         <Route path="/formulario" element={ <Fomulario /> } />
-        <Route path="/" element={<PrincipalPage />} />
+        {/* <Route path="/" element={<PrincipalPage />} /> */}
         <Route path="/sobre-nosotros" element={<SobreNosotros />} />
         <Route path="/terminos-y-condiciones" element={<TerminosYCondiciones />} />
         <Route path="/politicas-de-privacidad" element={<PoliticasDePrivacidad />} />

@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Direccion from './direccion';
-import '../css/productDetail.css'
+import '../css/productDetail.css';
 
 const ProductDetail = () => {
     const { slug } = useParams(); // Obtener el slug de la URL
     const [producto, setProducto] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [imagenPrincipal, setImagenPrincipal] = useState(''); // Estado para la imagen principal
 
     useEffect(() => {
         setLoading(true); // Inicia el loading cuando se monta el componente
@@ -21,6 +22,7 @@ const ProductDetail = () => {
             })
             .then(data => {
                 setProducto(data); // Guarda el producto obtenido
+                setImagenPrincipal(data.images[0]); // Establece la primera imagen como la principal
                 setLoading(false); // Desactiva el loading una vez que se carga el producto
             })
             .catch(error => {
@@ -37,44 +39,49 @@ const ProductDetail = () => {
         return <div>Error: {error}</div>;
     }
 
+    // Función para cambiar la imagen principal
+    const cambiarImagen = (nuevaImagen) => {
+        setImagenPrincipal(nuevaImagen);
+    }
+
     return (
         <>
             <Direccion />
 
             <div className='m-5'>
                 <div className='row p-0 m-0'>
-                    <div className='card p-0 m-0 col-12 col-md-6' id='bord0'>
-                        <img src={producto.images[0]} alt={producto.title} className='' />
+                    <div className='card p-0 m-0 col-12 col-lg-6' id='bord0'>
+                        {/* Mostrar la imagen principal */}
+                        <img src={imagenPrincipal} alt={producto.title} className='' />
                     </div>
-                    <div className='p-0 m-0 col-12 col-md-2'>
-                        <div className=''>
-                            <div className='card m-0 p-0' id='bord0'>
-                                <img src={producto.images[0]} alt={producto.title} />
-                            </div>
-                            <div className='card m-0 p-0' id='bord0'>
-                                <img src={producto.images[1]} alt={producto.title} />
-                            </div>
-                            <div className='card m-0 p-0' id='bord0'>
-                                <img src={producto.images[2]} alt={producto.title} />
-                            </div>
+                    <div className='p-0 m-0 col-12 col-lg-2'>
+                        <div className='row m-0 p-0'>
+                            {/* Botones para cambiar la imagen principal */}
+                            {producto.images.map((imagen, index) => (
+                                <div key={index} className='card m-0 p-0 col-4 col-lg-12' id='bord0'>
+                                    <img src={imagen} alt={producto.title} onClick={() => cambiarImagen(imagen)} />
+                                </div>
+                            ))}
                         </div>
                     </div>
-                    <div className='col-12 col-md-4'>
+                    <div className='col-12 col-lg-4'>
                         <p className='fs-2'><strong>{producto.title}</strong></p>
                         <p className='fs-4'>${producto.price * 1350}</p>
                         <div className='text-center'>
                             <button className='btn bg-black text-white' id='bord0'>AGREGAR AL CARRITO</button>
                         </div>
-                        <p className='fs-4'>{producto.description}</p>
+                        <p className='fs-6'>{producto.description}</p>
+                        <div className=''>
+                            <p className='p-0 m-0'>COLOR: </p>
+                            <button className="bg-black text-white text-center text-decoration-none" id="">NEGRO <i className="bi bi-caret-down-fill"></i></button>
+                        </div>
+                        <div className='mt-2'>
+                            <p className='p-0 m-0'>TALLE: </p>
+                            <button className="text-black text-center text-decoration-none" id="bord0">XXS <i className="bi bi-caret-down-fill"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
-            {/* <div className='p-5'>
-                <h1>{producto.title}</h1>
-                <img src={producto.images[0]} alt={producto.title} />
-                <p>{producto.description}</p>
-                <p>Price: ${producto.price}</p>
-            </div> */}
         </>
     );
 };

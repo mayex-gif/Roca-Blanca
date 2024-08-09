@@ -12,7 +12,7 @@ const CalzadosHombre = () => {
 
     useEffect(() => {
         setLoading(true); // Inicia el loading cuando se monta el componente
-        fetch("https://fakestoreapi.com/products/category/electronics")
+        fetch("https://api.escuelajs.co/api/v1/products")
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
@@ -20,10 +20,11 @@ const CalzadosHombre = () => {
                 return response.json();
             })
             .then(data => {
-                // Filtra los productos por categoría
-                // const productosFiltrados = data.filter(producto => producto.category === 'women'); // Si para filtrar los datos
-                setProductos(data); // Guarda los datos obtenidos
+                // Filtrar los datos, deberia ser por varias categorias, en este caso las categorias mujer y calzado
+                const productosFiltrados = data.filter(producto => producto.category.id === 2); 
+                setProductos(productosFiltrados); // Guarda los datos obtenidos
                 console.log(data);
+                console.log(productosFiltrados);
                 setLoading(false); // Desactiva el loading una vez que se cargan los datos
             })
             .catch(error => {
@@ -51,7 +52,6 @@ const CalzadosHombre = () => {
         )
     }
 
-
     return (
         <>
             <Direccion />
@@ -59,13 +59,13 @@ const CalzadosHombre = () => {
             <div className="container pt-5">
                 <h1 className='fs-3'><strong>Calzados Hombre</strong></h1>
                 <div className="row justify-content-center">
-                    {productos.map(producto => {
+                {productos.map(producto => {
                         const slug = createProductSlug(producto.title, producto.id); // Generar el slug aquí
                         return (
                             <div key={producto.id} className="col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                                 <Link to={`${slug}`} className="text-decoration-none">
                                     <div className="card text-white bg-dark h-100" id='product'>
-                                        <img src={producto.image} className="card-img-top" alt={producto.title} />
+                                        <img src={producto.images[0]} className="card-img-top" alt={producto.title} />
                                         <div className="card-body">
                                             <div className="text-center">
                                                 <p className="fs-6 m-0">{producto.title}</p>

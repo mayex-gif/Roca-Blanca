@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Roca-Blanca/static/css/main.8eb88b89.css",
-    "main.js": "/Roca-Blanca/static/js/main.c095ee20.js",
+    "main.css": "/Roca-Blanca/static/css/main.69102e29.css",
+    "main.js": "/Roca-Blanca/static/js/main.bd9f621d.js",
     "static/media/calzado5.jpg": "/Roca-Blanca/static/media/calzado5.0730f6be52df5b3aee19.jpg",
     "static/media/calzadoHombre.jpg": "/Roca-Blanca/static/media/calzadoHombre.4ab9119a280a506f0788.jpg",
     "static/media/slideImg1.jpg": "/Roca-Blanca/static/media/slideImg1.90204773c84cb2e70059.jpg",
@@ -22,11 +22,11 @@
     "static/media/oferta4.jpg": "/Roca-Blanca/static/media/oferta4.8bf4fb6b40864c6b6f9b.jpg",
     "static/media/rocablancapng.png": "/Roca-Blanca/static/media/rocablancapng.88a13520c269accd22fa.png",
     "index.html": "/Roca-Blanca/index.html",
-    "main.8eb88b89.css.map": "/Roca-Blanca/static/css/main.8eb88b89.css.map",
-    "main.c095ee20.js.map": "/Roca-Blanca/static/js/main.c095ee20.js.map"
+    "main.69102e29.css.map": "/Roca-Blanca/static/css/main.69102e29.css.map",
+    "main.bd9f621d.js.map": "/Roca-Blanca/static/js/main.bd9f621d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8eb88b89.css",
-    "static/js/main.c095ee20.js"
+    "static/css/main.69102e29.css",
+    "static/js/main.bd9f621d.js"
   ]
 }

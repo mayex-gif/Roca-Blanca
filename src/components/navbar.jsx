@@ -37,7 +37,7 @@ function NavBar() {
                             </a>
                             <a href='https://www.facebook.com/rocablanca.ok/?locale=es_LA' target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn" id='facebook'>
-                                    <i class="bi bi-facebook"></i>
+                                    <i className="bi bi-facebook"></i>
                                 </button>
                             </a>
                         </div>

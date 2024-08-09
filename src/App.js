@@ -13,8 +13,7 @@ import ScrollToTop from './components/scrollToTop';
 import { Route, Routes } from 'react-router-dom';
 import CalzadosMujer from './components/calzadosMujer';
 import CalzadosHombre from './components/calzadosHombre';
-import Producto from './components/producto';
-import PrincipalBody from './components/principalBody';
+import ProductDetail from './components/productDetail';
 
 
 
@@ -34,8 +33,12 @@ function App() {
         <Route path="/calzados" element={<Calzados />} />
         <Route path="calzados/calzados-mujer" element={<CalzadosMujer />} />
         <Route path="calzados/calzados-hombre" element={<CalzadosHombre />} />
-        <Route path="/producto" element={<Producto />} />
-        <Route path="/principalbody" element={<PrincipalBody />} />
+        <Route path="/calzados/:slug" element={<ProductDetail />} />
+        <Route path="/calzados/calzados-mujer/:slug" element={<ProductDetail />} />
+        <Route path="/calzados/calzados-hombre/:slug" element={<ProductDetail />} />
+        <Route path="/vestimentas/:slug" element={<ProductDetail />} />
+        <Route path="/home/:slug" element={<ProductDetail />} />
+        <Route path="/:slug" element={<ProductDetail />} />
       </Routes>
       <Footer />
     </>

@@ -1,14 +1,17 @@
-#cardProduct {
+#product {
     border-color: white;
-    border-width: 1px;
+    border-width: 0px;
     border-radius: 0px;
 }
 
-#cardProduct img {
+
+#product img {
     width: 100%;
     height: 100%; /* Ajusta la altura de las imágenes */
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 0px;
+    border-width: 0px;
+    border-color: white;
 }
 
 .card-body {

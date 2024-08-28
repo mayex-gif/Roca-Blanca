@@ -1,32 +1,27 @@
 {
   "files": {
-    "main.css": "/Roca-Blanca/static/css/main.69102e29.css",
-    "main.js": "/Roca-Blanca/static/js/main.345ddecf.js",
-    "static/media/calzado5.jpg": "/Roca-Blanca/static/media/calzado5.0730f6be52df5b3aee19.jpg",
+    "main.css": "/Roca-Blanca/static/css/main.fc127a38.css",
+    "main.js": "/Roca-Blanca/static/js/main.b269e969.js",
     "static/media/calzadoHombre.jpg": "/Roca-Blanca/static/media/calzadoHombre.4ab9119a280a506f0788.jpg",
     "static/media/slideImg1.jpg": "/Roca-Blanca/static/media/slideImg1.90204773c84cb2e70059.jpg",
-    "static/media/oferta2.jpg": "/Roca-Blanca/static/media/oferta2.9b5363cb6ab634662888.jpg",
-    "static/media/calzado3.jpg": "/Roca-Blanca/static/media/calzado3.647e7e0fe37c43b94957.jpg",
     "static/media/ropa.jpg": "/Roca-Blanca/static/media/ropa.8ddc5b020a8f4f846ef3.jpg",
     "static/media/slideImg3.jpg": "/Roca-Blanca/static/media/slideImg3.4fb40486a15056b30fbe.jpg",
     "static/media/slideImg2.jpg": "/Roca-Blanca/static/media/slideImg2.fbef504ac3d21593743b.jpg",
-    "static/media/oferta1.jpg": "/Roca-Blanca/static/media/oferta1.403bf2689869fda01ab4.jpg",
-    "static/media/calzado4.jpg": "/Roca-Blanca/static/media/calzado4.a9234c67f298cb016625.jpg",
-    "static/media/calzado2.jpg": "/Roca-Blanca/static/media/calzado2.5b5717e3e5524a59cb07.jpg",
-    "static/media/calzado1.jpg": "/Roca-Blanca/static/media/calzado1.f4ff1aa6b241b52077c0.jpg",
-    "static/media/calzados.jpg": "/Roca-Blanca/static/media/calzados.f4ff1aa6b241b52077c0.jpg",
+    "static/media/vestimentaMujer.jpg": "/Roca-Blanca/static/media/vestimentaMujer.06c052301895be1e75e3.jpg",
+    "static/media/calzado.jpg": "/Roca-Blanca/static/media/calzado.f4ff1aa6b241b52077c0.jpg",
+    "static/media/vestimentaHombre.jpg": "/Roca-Blanca/static/media/vestimentaHombre.71eb0478367a94c84df2.jpg",
     "static/media/calzadoMujer.jpg": "/Roca-Blanca/static/media/calzadoMujer.20ee096099e26c195e7c.jpg",
-    "static/media/oferta3.jpg": "/Roca-Blanca/static/media/oferta3.e9bf07c1b0eb7783821c.jpg",
-    "static/media/oferta5.jpg": "/Roca-Blanca/static/media/oferta5.1ff87cc8d5f6899d802d.jpg",
     "static/media/slideImg4.jpg": "/Roca-Blanca/static/media/slideImg4.c8c68c515e005bccefc1.jpg",
-    "static/media/oferta4.jpg": "/Roca-Blanca/static/media/oferta4.8bf4fb6b40864c6b6f9b.jpg",
     "static/media/rocablancapng.png": "/Roca-Blanca/static/media/rocablancapng.88a13520c269accd22fa.png",
+    "static/media/revicons.eot": "/Roca-Blanca/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Roca-Blanca/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Roca-Blanca/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Roca-Blanca/index.html",
-    "main.69102e29.css.map": "/Roca-Blanca/static/css/main.69102e29.css.map",
-    "main.345ddecf.js.map": "/Roca-Blanca/static/js/main.345ddecf.js.map"
+    "main.fc127a38.css.map": "/Roca-Blanca/static/css/main.fc127a38.css.map",
+    "main.b269e969.js.map": "/Roca-Blanca/static/js/main.b269e969.js.map"
   },
   "entrypoints": [
-    "static/css/main.69102e29.css",
-    "static/js/main.345ddecf.js"
+    "static/css/main.fc127a38.css",
+    "static/js/main.b269e969.js"
   ]
 }

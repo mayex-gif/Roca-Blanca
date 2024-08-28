@@ -3,9 +3,9 @@ import Descuentos from './descuentos';
 import logoRocaBlanca from '../images/rocablancapng.png';
 import { Link } from 'react-router-dom';
 
-const buscarProductos = () => {
-    // Implementación de la función de búsqueda
-};
+// const buscarProductos = () => {
+//     // Implementación de la función de búsqueda
+// };
 
 function NavBar() {
     return (
@@ -26,9 +26,9 @@ function NavBar() {
                         <div className="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
                             <form className="d-flex align-items-center" role="search">
                                 {/* <input className="form-control text-white me-2" type="search" placeholder="Buscar..." aria-label="Search" /> */}
-                                <button className="btn btn-light me-2 disabled" onClick={ buscarProductos } type="submit">
+                                {/* <button className="btn btn-light me-2 disabled" onClick={ buscarProductos } type="submit">
                                     <i className="bi bi-search"></i>
-                                </button>
+                                </button> */}
                             </form>
                             <a href='https://www.instagram.com/rocablanca.ok/' target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn me-2" id='instagram'>

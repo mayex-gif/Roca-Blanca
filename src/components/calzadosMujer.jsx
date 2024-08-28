@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Direccion from '../components/direccion'; // Suponiendo que tienes este componente
-import '../css/calzadosCards.css';
+import Direccion from './direccion'; // Suponiendo que tienes este componente
+import '../css/Cards.css';
 
 import { createProductSlug } from './utils/slugify';
 
